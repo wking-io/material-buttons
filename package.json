@@ -1,0 +1,27 @@
+{
+  "name": "groundwork",
+  "version": "1.0.0",
+  "description": "Groundwork is the project structure I use as a template for all of my responsive web development projects. It is only for front-end and includes HTML boilerplate, SASS, Bourbon, JQuery, and uses a preconfigured Gruntfile for standard tasks. ",
+  "author": "William King contact@wking.io",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/wking-io/groundwork"
+  },
+  "keywords": [
+  	"template",
+  	"boilerplate",
+  	"JQuery",
+  	"SASS",
+  	"Grunt"
+  ],
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "license": "MIT"
+}
