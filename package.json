@@ -1,16 +1,16 @@
 {
-  "name": "groundwork",
+  "name": "material buttons",
   "version": "1.0.0",
-  "description": "Groundwork is the project structure I use as a template for all of my responsive web development projects. It is only for front-end and includes HTML boilerplate, SASS, Bourbon, JQuery, and uses a preconfigured Gruntfile for standard tasks. ",
+  "description": "This is just something I made during a span of projects where I wanted to use elements from Google's Material Design without having to pull in an entire framework like Angular Material or Materialize.",
   "author": "William King contact@wking.io",
   "repository": {
   	"type": "git",
-  	"url": "https://github.com/wking-io/groundwork"
+  	"url": "https://github.com/wking-io/material-buttons"
   },
   "keywords": [
-  	"template",
-  	"boilerplate",
-  	"JQuery",
+  	"material design",
+  	"buttons",
+  	"custom style sheet",
   	"SASS",
   	"Grunt"
   ],
