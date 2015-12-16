@@ -5,9 +5,17 @@ module.exports = function(grunt) {
 		watch: {
 			sass: {
 				files: ['stylesheets/*.scss'],
-				tasks: ['sass', 'cssmin']
+				tasks: ['sass', 'autoprefixer', 'cssmin']
 			}
 		},
+
+		autoprefixer: {
+            dist: {
+                files: {
+                    'css/style.css': 'css/style.css'
+                }
+            }
+        },
 
 		sass : {
 			dist: {
@@ -57,6 +65,7 @@ module.exports = function(grunt) {
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
