@@ -1,0 +1,579 @@
+@import 'partials/variables'; // colors, fonts etc...
+
+/* -------------------------------- 
+
+Roboto Medium
+
+-------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700); //Roboto Medium
+
+@import 'partials/mixins'; // custom mixins
+
+/* -------------------------------- 
+
+Postioning
+
+-------------------------------- */
+
+.select {
+	width: 100%;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	overflow: auto;
+  	resize: vertical;
+}
+
+#colorChange {
+	width: 220px;
+	margin: 1em auto 0 auto;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: 'Roboto', sans-serif;
+	@include font-smoothing;
+	font-size: 16px;
+}
+
+.heading {
+	font-weight: 700;
+	color: #E91E63;
+	font-size: 1.7em;
+	margin: 4em auto 0 auto;
+	text-align: center;
+	transition: all .5s ease-out;
+}
+
+p {
+	font-weight: 400;
+	color: rgba(0,0,0,0.87);
+	font-size: .85em;
+	display: block;
+	margin: 1em auto;
+	text-align: center;
+}
+#buttons {
+	position: absolute;
+	margin: 0 8px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#fab {
+	margin: auto 24px 24px auto;
+	z-index: 9999;
+}
+
+#miniFab-1 {
+	margin: auto 32px 96px auto;
+	z-index: 9999;
+}
+
+#miniFab-2 {
+	margin: auto 32px 152px auto;
+	z-index: 9999;
+}
+
+#miniFab-3 {
+	margin: auto 32px 208px auto;
+	z-index: 9999;
+}
+
+.github {
+	color: rgba(0,0,0,0.56);
+	font-weight: 400;
+	font-size: .85em;
+	position: fixed;
+	top: auto;
+	bottom: 5em;
+	left: 50%;
+	right: auto;
+	transform: translateX(-50%);
+	i {
+		font-size: 1.25em;
+		color: rgba(0,0,0,0.87);
+	}
+	a {
+		margin-left: 1em;
+		text-decoration: none;
+		color: #E91E63;
+	}
+	a:hover {
+		color: rgba(0,0,0,0.87);
+	}
+}
+
+
+/* -------------------------------- 
+
+Primary Buttons
+
+-------------------------------- */
+
+.pink-btn {
+	@include primary-btn(#fff, #E91E63, #D81B60, #C2185B);
+}
+
+.red-btn {
+	@include primary-btn(#fff, #f44336, #e53935, #d32f2f);
+}
+
+.deepOrange-btn {
+	@include primary-btn(#fff, #FF5722, #F4511E, #E64A19);
+}
+
+.orange-btn {
+	@include primary-btn(#fff, #FF9800, #FB8C00, #F57C00);
+}
+
+.amber-btn {
+	@include primary-btn(#fff, #FFC107, #FFB300, #FFA000);
+}
+
+.yellow-btn {
+	@include primary-btn(#fff, #FFEB3B, #FDD835, #FBC02D);
+}
+
+.lime-btn {
+	@include primary-btn(#fff, #CDDC39, #C0CA33, #AFB42B);
+}
+
+.lightGreen-btn {
+	@include primary-btn(#fff, #8BC34A, #7CB342, #689F38);
+}
+
+.green-btn {
+	@include primary-btn(#fff, #4CAF50, #43A047, #388E3C);
+}
+
+.teal-btn {
+	@include primary-btn(#fff, #009688, #00897B, #00796B);
+}
+
+.cyan-btn {
+	@include primary-btn(#fff, #00BCD4, #00ACC1, #0097A7);
+}
+
+.lightBlue-btn {
+	@include primary-btn(#fff, #03A9F4, #039BE5, #0097A7);
+}
+
+.blue-btn {
+	@include primary-btn(#fff, #2196F3, #1E88E5, #1976D2);
+}
+
+.indigo-btn {
+	@include primary-btn(#fff, #3F51B5, #3949AB, #303F9F);
+}
+
+.deepPurple-btn {
+	@include primary-btn(#fff, #673AB7, #5E35B1, #512DA8);
+}
+
+.purple-btn {
+	@include primary-btn(#fff, #9C27B0, #5E35B1, #512DA8);
+}
+
+.grey-btn {
+	@include primary-btn(#fff, #424242, #212121, #212121);
+}
+
+.blueGrey-btn {
+	@include primary-btn(#fff, #607D8B, #546E7A, #455A64);
+}
+
+/* -------------------------------- 
+
+Primary Buttons [ lite ]
+
+-------------------------------- */
+
+.pink-btn-lite {
+	@include lite-btn(#E91E63);
+}
+
+.red-btn-lite {
+	@include lite-btn(#f44336);
+}
+
+.deepOrange-btn-lite {
+	@include lite-btn(#FF5722);
+}
+
+.orange-btn-lite {
+	@include lite-btn(#FF9800);
+}
+
+.amber-btn-lite {
+	@include lite-btn(#FFC107);
+}
+
+.yellow-btn-lite {
+	@include lite-btn(#FFEB3B);
+}
+
+.lime-btn-lite {
+	@include lite-btn(#CDDC39);
+}
+
+.lightGreen-btn-lite {
+	@include lite-btn(#8BC34A);
+}
+
+.green-btn-lite {
+	@include lite-btn(#4CAF50);
+}
+
+.teal-btn-lite {
+	@include lite-btn(#009688);
+}
+
+.cyan-btn-lite {
+	@include lite-btn(#00BCD4);
+}
+
+.lightBlue-btn-lite {
+	@include lite-btn(#03A9F4);
+}
+
+.blue-btn-lite {
+	@include lite-btn(#2196F3);
+}
+
+.indigo-btn-lite {
+	@include lite-btn(#3F51B5);
+}
+
+.deepPurple-btn-lite {
+	@include lite-btn(#673AB7);
+}
+
+.purple-btn-lite {
+	@include lite-btn(#9C27B0);
+}
+
+.grey-btn-lite {
+	@include lite-btn(#212121);
+}
+
+.blueGrey-btn-lite {
+	@include lite-btn(#607D8B);
+}
+/* -------------------------------- 
+
+Flat Buttons
+
+-------------------------------- */
+
+.pink-flat {
+	@include flat-btn(#E91E63);
+}
+
+.red-flat {
+	@include flat-btn(#f44336);
+}
+
+.deepOrange-flat {
+	@include flat-btn(#FF5722);
+}
+
+.orange-flat {
+	@include flat-btn(#FF9800);
+}
+
+.amber-flat {
+	@include flat-btn(#FFC107);
+}
+
+.yellow-flat {
+	@include flat-btn(#FFEB3B);
+}
+
+.lime-flat {
+	@include flat-btn(#CDDC39);
+}
+
+.lightGreen-flat {
+	@include flat-btn(#8BC34A);
+}
+
+.green-flat {
+	@include flat-btn(#4CAF50);
+}
+
+.teal-flat {
+	@include flat-btn(#009688);
+}
+
+.cyan-flat {
+	@include flat-btn(#00BCD4);
+}
+
+.lightBlue-flat {
+	@include flat-btn(#03A9F4);
+}
+
+.blue-flat {
+	@include flat-btn(#2196F3);
+}
+
+.indigo-flat {
+	@include flat-btn(#3F51B5);
+}
+
+.deepPurple-flat {
+	@include flat-btn(#673AB7);
+}
+
+.purple-flat {
+	@include flat-btn(#9C27B0);
+}
+
+.grey-flat {
+	@include flat-btn(#212121);
+}
+
+.blueGrey-flat {
+	@include flat-btn(#607D8B);
+}
+
+/* -------------------------------- 
+
+FAB Buttons
+
+-------------------------------- */
+
+.lite-fab {
+	@include miniFab-btn(#fff, #F5F5F5, #EEEEEE, #757575);
+}
+
+.pink-fab {
+	@include fab-btn(#E91E63, #D81B60, #C2185B, #fff);
+}
+
+.red-fab {
+	@include fab-btn(#f44336, #e53935, #d32f2f, #fff);
+}
+
+.deepOrange-fab {
+	@include fab-btn(#FF5722, #F4511E, #E64A19, #fff);
+}
+
+.orange-fab {
+	@include fab-btn(#FF9800, #FB8C00, #F57C00, #fff);
+}
+
+.amber-fab {
+	@include fab-btn(#FFC107, #FFB300, #FFA000, #fff);
+}
+
+.yellow-fab {
+	@include fab-btn(#FFEB3B, #FDD835, #FBC02D, #fff);
+}
+
+.lime-fab {
+	@include fab-btn(#CDDC39, #C0CA33, #AFB42B, #fff);
+}
+
+.lightGreen-fab {
+	@include fab-btn(#8BC34A, #7CB342, #689F38, #fff);
+}
+
+.green-fab {
+	@include fab-btn(#4CAF50, #43A047, #388E3C, #fff);
+}
+
+.teal-fab {
+	@include fab-btn(#009688, #00897B, #00796B, #fff);
+}
+
+.cyan-fab {
+	@include fab-btn(#00BCD4, #00ACC1, #0097A7, #fff);
+}
+
+.lightBlue-fab {
+	@include fab-btn(#03A9F4, #039BE5, #0097A7, #fff);
+}
+
+.blue-fab {
+	@include fab-btn(#2196F3, #1E88E5, #1976D2, #fff);
+}
+
+.indigo-fab {
+	@include fab-btn(#3F51B5, #3949AB, #303F9F, #fff);
+}
+
+.deepPurple-fab {
+	@include fab-btn(#673AB7, #5E35B1, #512DA8, #fff);
+}
+
+.purple-fab {
+	@include fab-btn(#9C27B0, #5E35B1, #512DA8, #fff);
+}
+
+.grey-fab {
+	@include fab-btn(#424242, #212121, #212121, #fff);
+}
+
+.blueGrey-fab {
+	@include fab-btn(#607D8B, #546E7A, #455A64, #fff);
+}
+
+/* -------------------------------- 
+
+mini FAB Buttons
+
+-------------------------------- */
+
+.lite-miniFab {
+	@include miniFab-btn(#fff, #F5F5F5, #EEEEEE, #757575);
+}
+
+.pink-miniFab {
+	@include miniFab-btn(#E91E63, #D81B60, #C2185B, #fff);
+}
+
+.red-miniFab {
+	@include miniFab-btn(#f44336, #e53935, #d32f2f, #fff);
+}
+
+.deepOrange-miniFab {
+	@include miniFab-btn(#FF5722, #F4511E, #E64A19, #fff);
+}
+
+.orange-miniFab {
+	@include miniFab-btn(#FF9800, #FB8C00, #F57C00, #fff);
+}
+
+.amber-miniFab {
+	@include miniFab-btn(#FFC107, #FFB300, #FFA000, #fff);
+}
+
+.yellow-miniFab {
+	@include miniFab-btn(#FFEB3B, #FDD835, #FBC02D, #fff);
+}
+
+.lime-miniFab {
+	@include miniFab-btn(#CDDC39, #C0CA33, #AFB42B, #fff);
+}
+
+.lightGreen-miniFab {
+	@include miniFab-btn(#8BC34A, #7CB342, #689F38, #fff);
+}
+
+.green-miniFab {
+	@include miniFab-btn(#4CAF50, #43A047, #388E3C, #fff);
+}
+
+.teal-miniFab {
+	@include miniFab-btn(#009688, #00897B, #00796B, #fff);
+}
+
+.cyan-miniFab {
+	@include miniFab-btn(#00BCD4, #00ACC1, #0097A7, #fff);
+}
+
+.lightBlue-miniFab {
+	@include miniFab-btn(#03A9F4, #039BE5, #0097A7, #fff);
+}
+
+.blue-miniFab {
+	@include miniFab-btn(#2196F3, #1E88E5, #1976D2, #fff);
+}
+
+.indigo-miniFab {
+	@include miniFab-btn(#3F51B5, #3949AB, #303F9F, #fff);
+}
+
+.deepPurple-miniFab {
+	@include miniFab-btn(#673AB7, #5E35B1, #512DA8, #fff);
+}
+
+.purple-miniFab {
+	@include miniFab-btn(#9C27B0, #5E35B1, #512DA8, #fff);
+}
+
+.grey-miniFab {
+	@include miniFab-btn(#424242, #212121, #212121, #fff);
+}
+
+.blueGrey-miniFab {
+	@include miniFab-btn(#607D8B, #546E7A, #455A64, #fff);
+}
+
+/* -------------------------------- 
+
+Disabled Buttons
+
+-------------------------------- */
+
+.disabled-lite {
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 16px;
+  min-width: 88px;
+  height: 36px;
+  @include font-smoothing;
+  font-family: Roboto, Noto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.disabled-dark {
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 16px;
+  min-width: 88px;
+  height: 36px;
+  @include font-smoothing;
+  font-family: Roboto, Noto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.26);
+}
+
+.disabled-lite-flat {
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 16px;
+  min-width: 88px;
+  height: 36px;
+  @include font-smoothing;
+  font-family: Roboto, Noto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.disabled-dark-flat {
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 16px;
+  min-width: 88px;
+  height: 36px;
+  @include font-smoothing;
+  font-family: Roboto, Noto, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.26);
+}
