@@ -1,0 +1,29 @@
+{
+  "name": "materialButtons",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wking-io/material-buttons",
+  "authors": [
+    "WILLIAM KING <WKINGCREATIVE@GMAIL.COM>"
+  ],
+  "description": "stylesheet that defines material design buttons that you can add to your project without having to add entire material frameworks.",
+  "main": "css/material_buttons.scss",
+  "keywords": [
+    "material",
+    "design",
+    "buttons",
+    "sass",
+    "Google's",
+    "scss",
+    "fab",
+    "button"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "dist",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
