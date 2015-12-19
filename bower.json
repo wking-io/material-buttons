@@ -5,7 +5,7 @@
   "authors": [
     "WILLIAM KING <WKINGCREATIVE@GMAIL.COM>"
   ],
-  "description": "stylesheet that defines material design buttons that you can add to your project without having to add entire material frameworks.",
+  "description": "Material design buttons that you can add to your project without having to add an entire material frameworks.",
   "main": "css/material_buttons.scss",
   "keywords": [
     "material",
@@ -17,6 +17,7 @@
     "fab",
     "button"
   ],
+  "moduleType": "globals",
   "license": "MIT",
   "ignore": [
     "**/.*",
