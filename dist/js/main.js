@@ -90,11 +90,23 @@ $('#colorChange').change(function() {
  	$('#liteButton').removeClass().addClass('deepPurple-btn-lite');
  	$('#flatButton').removeClass().addClass('deepPurple-flat');
  	$('#fab').removeClass().addClass('deepPurple-fab');
- } else {
+} else if (value == 'purple') {
  	$('.heading, .github--link').css("color", "#9C27B0");
  	$('#primaryButton').removeClass().addClass('purple-btn');
  	$('#liteButton').removeClass().addClass('purple-btn-lite');
  	$('#flatButton').removeClass().addClass('purple-flat');
  	$('#fab').removeClass().addClass('purple-fab');
+} else if (value == 'grey') {
+ 	$('.heading, .github--link').css("color", "#424242");
+ 	$('#primaryButton').removeClass().addClass('grey-btn');
+ 	$('#liteButton').removeClass().addClass('grey-btn-lite');
+ 	$('#flatButton').removeClass().addClass('grey-flat');
+ 	$('#fab').removeClass().addClass('grey-fab');
+} else {
+ 	$('.heading, .github--link').css("color", "#607D8B");
+ 	$('#primaryButton').removeClass().addClass('blueGrey-btn');
+ 	$('#liteButton').removeClass().addClass('blueGrey-btn-lite');
+ 	$('#flatButton').removeClass().addClass('blueGrey-flat');
+ 	$('#fab').removeClass().addClass('blueGrey-fab');
  };
 });

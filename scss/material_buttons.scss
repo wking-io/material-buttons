@@ -17,75 +17,75 @@ Primary Buttons
 -------------------------------- */
 
 .pink-btn {
-	@include primary-btn(#fff, #E91E63, #D81B60, #C2185B);
+	@include primary-btn($white, $pink-500, $pink-600, $pink-700);
 }
 
 .red-btn {
-	@include primary-btn(#fff, #f44336, #e53935, #d32f2f);
+	@include primary-btn($white, $red-500, $red-600, $red-700);
 }
 
 .deepOrange-btn {
-	@include primary-btn(#fff, #FF5722, #F4511E, #E64A19);
+	@include primary-btn($white, $deepOrange-500, $deepOrange-600, $deepOrange-700);
 }
 
 .orange-btn {
-	@include primary-btn(#fff, #FF9800, #FB8C00, #F57C00);
+	@include primary-btn($white, $orange-500, $orange-600, $orange-700);
 }
 
 .amber-btn {
-	@include primary-btn(#fff, #FFC107, #FFB300, #FFA000);
+	@include primary-btn($white, $amber-500, $amber-600, $amber-700);
 }
 
 .yellow-btn {
-	@include primary-btn(#fff, #FFEB3B, #FDD835, #FBC02D);
+	@include primary-btn($white, $yellow-500, $yellow-600, $yellow-700);
 }
 
 .lime-btn {
-	@include primary-btn(#fff, #CDDC39, #C0CA33, #AFB42B);
+	@include primary-btn($white, $lime-500, $lime-600, $lime-700);
 }
 
 .lightGreen-btn {
-	@include primary-btn(#fff, #8BC34A, #7CB342, #689F38);
+	@include primary-btn($white, $lightGreen-500, $lightGreen-600, $lightGreen-700);
 }
 
 .green-btn {
-	@include primary-btn(#fff, #4CAF50, #43A047, #388E3C);
+	@include primary-btn($white, $green-500, $green-600, $green-700);
 }
 
 .teal-btn {
-	@include primary-btn(#fff, #009688, #00897B, #00796B);
+	@include primary-btn($white, $teal-500, $teal-600, $teal-700);
 }
 
 .cyan-btn {
-	@include primary-btn(#fff, #00BCD4, #00ACC1, #0097A7);
+	@include primary-btn($white, $cyan-500, $cyan-600, $cyan-700);
 }
 
 .lightBlue-btn {
-	@include primary-btn(#fff, #03A9F4, #039BE5, #0097A7);
+	@include primary-btn($white, $lightBlue-500, $lightBlue-600, $lightBlue-700);
 }
 
 .blue-btn {
-	@include primary-btn(#fff, #2196F3, #1E88E5, #1976D2);
+	@include primary-btn($white, $blue-500, $blue-600, $blue-700);
 }
 
 .indigo-btn {
-	@include primary-btn(#fff, #3F51B5, #3949AB, #303F9F);
+	@include primary-btn($white, $indigo-500, $indigo-600, $indigo-700);
 }
 
 .deepPurple-btn {
-	@include primary-btn(#fff, #673AB7, #5E35B1, #512DA8);
+	@include primary-btn($white, $deepPurple-500, $deepPurple-600, $deepPurple-700);
 }
 
 .purple-btn {
-	@include primary-btn(#fff, #9C27B0, #5E35B1, #512DA8);
+	@include primary-btn($white, $purple-500, $purple-600, $purple-700);
 }
 
 .grey-btn {
-	@include primary-btn(#fff, #424242, #212121, #212121);
+	@include primary-btn($white, $grey-500, $grey-600, $grey-700);
 }
 
 .blueGrey-btn {
-	@include primary-btn(#fff, #607D8B, #546E7A, #455A64);
+	@include primary-btn($white, $blueGrey-500, $blueGrey-600, $blueGrey-700);
 }
 
 /* --------------------------------
@@ -95,75 +95,75 @@ Primary Buttons [ lite ]
 -------------------------------- */
 
 .pink-btn-lite {
-	@include lite-btn(#E91E63);
+	@include lite-btn($pink-500);
 }
 
 .red-btn-lite {
-	@include lite-btn(#f44336);
+	@include lite-btn($red-500);
 }
 
 .deepOrange-btn-lite {
-	@include lite-btn(#FF5722);
+	@include lite-btn($deepOrange-500);
 }
 
 .orange-btn-lite {
-	@include lite-btn(#FF9800);
+	@include lite-btn($orange-500);
 }
 
 .amber-btn-lite {
-	@include lite-btn(#FFC107);
+	@include lite-btn($amber-500);
 }
 
 .yellow-btn-lite {
-	@include lite-btn(#FFEB3B);
+	@include lite-btn($yellow-500);
 }
 
 .lime-btn-lite {
-	@include lite-btn(#CDDC39);
+	@include lite-btn($lime-500);
 }
 
 .lightGreen-btn-lite {
-	@include lite-btn(#8BC34A);
+	@include lite-btn($lightGreen-500);
 }
 
 .green-btn-lite {
-	@include lite-btn(#4CAF50);
+	@include lite-btn($green-500);
 }
 
 .teal-btn-lite {
-	@include lite-btn(#009688);
+	@include lite-btn($teal-500);
 }
 
 .cyan-btn-lite {
-	@include lite-btn(#00BCD4);
+	@include lite-btn($cyan-500);
 }
 
 .lightBlue-btn-lite {
-	@include lite-btn(#03A9F4);
+	@include lite-btn($lightBlue-500);
 }
 
 .blue-btn-lite {
-	@include lite-btn(#2196F3);
+	@include lite-btn($blue-500);
 }
 
 .indigo-btn-lite {
-	@include lite-btn(#3F51B5);
+	@include lite-btn($indigo-500);
 }
 
 .deepPurple-btn-lite {
-	@include lite-btn(#673AB7);
+	@include lite-btn($deepPurple-500);
 }
 
 .purple-btn-lite {
-	@include lite-btn(#9C27B0);
+	@include lite-btn($purple-500);
 }
 
 .grey-btn-lite {
-	@include lite-btn(#212121);
+	@include lite-btn($grey-500);
 }
 
 .blueGrey-btn-lite {
-	@include lite-btn(#607D8B);
+	@include lite-btn($blueGrey-500);
 }
 /* --------------------------------
 
@@ -172,75 +172,75 @@ Flat Buttons
 -------------------------------- */
 
 .pink-flat {
-	@include flat-btn(#E91E63);
+	@include flat-btn($pink-500);
 }
 
 .red-flat {
-	@include flat-btn(#f44336);
+	@include flat-btn($red-500);
 }
 
 .deepOrange-flat {
-	@include flat-btn(#FF5722);
+	@include flat-btn($deepOrange-500);
 }
 
 .orange-flat {
-	@include flat-btn(#FF9800);
+	@include flat-btn($orange-500);
 }
 
 .amber-flat {
-	@include flat-btn(#FFC107);
+	@include flat-btn($amber-500);
 }
 
 .yellow-flat {
-	@include flat-btn(#FFEB3B);
+	@include flat-btn($yellow-500);
 }
 
 .lime-flat {
-	@include flat-btn(#CDDC39);
+	@include flat-btn($lime-500);
 }
 
 .lightGreen-flat {
-	@include flat-btn(#8BC34A);
+	@include flat-btn($lightGreen-500);
 }
 
 .green-flat {
-	@include flat-btn(#4CAF50);
+	@include flat-btn($green-500);
 }
 
 .teal-flat {
-	@include flat-btn(#009688);
+	@include flat-btn($teal-500);
 }
 
 .cyan-flat {
-	@include flat-btn(#00BCD4);
+	@include flat-btn($cyan-500);
 }
 
 .lightBlue-flat {
-	@include flat-btn(#03A9F4);
+	@include flat-btn($lightBlue-500);
 }
 
 .blue-flat {
-	@include flat-btn(#2196F3);
+	@include flat-btn($blue-500);
 }
 
 .indigo-flat {
-	@include flat-btn(#3F51B5);
+	@include flat-btn($indigo-500);
 }
 
 .deepPurple-flat {
-	@include flat-btn(#673AB7);
+	@include flat-btn($deepPurple-500);
 }
 
 .purple-flat {
-	@include flat-btn(#9C27B0);
+	@include flat-btn($purple-500);
 }
 
 .grey-flat {
-	@include flat-btn(#212121);
+	@include flat-btn($grey-500);
 }
 
 .blueGrey-flat {
-	@include flat-btn(#607D8B);
+	@include flat-btn($blueGrey-500);
 }
 
 /* --------------------------------
@@ -249,82 +249,77 @@ FAB Buttons
 
 -------------------------------- */
 
-.lite-fab {
-	@include miniFab-btn(#fff, #F5F5F5, #EEEEEE, #757575);
-}
-
 .pink-fab {
-	@include fab-btn(#E91E63, #D81B60, #C2185B, #fff);
+	@include fab-btn($white, $pink-500, $pink-600, $pink-700);
 }
 
 .red-fab {
-	@include fab-btn(#f44336, #e53935, #d32f2f, #fff);
+	@include fab-btn($white, $red-500, $red-600, $red-700);
 }
 
 .deepOrange-fab {
-	@include fab-btn(#FF5722, #F4511E, #E64A19, #fff);
+	@include fab-btn($white, $deepOrange-500, $deepOrange-600, $deepOrange-700);
 }
 
 .orange-fab {
-	@include fab-btn(#FF9800, #FB8C00, #F57C00, #fff);
+	@include fab-btn($white, $orange-500, $orange-600, $orange-700);
 }
 
 .amber-fab {
-	@include fab-btn(#FFC107, #FFB300, #FFA000, #fff);
+	@include fab-btn($white, $amber-500, $amber-600, $amber-700);
 }
 
 .yellow-fab {
-	@include fab-btn(#FFEB3B, #FDD835, #FBC02D, #fff);
+	@include fab-btn($white, $yellow-500, $yellow-600, $yellow-700);
 }
 
 .lime-fab {
-	@include fab-btn(#CDDC39, #C0CA33, #AFB42B, #fff);
+	@include fab-btn($white, $lime-500, $lime-600, $lime-700);
 }
 
 .lightGreen-fab {
-	@include fab-btn(#8BC34A, #7CB342, #689F38, #fff);
+	@include fab-btn($white, $lightGreen-500, $lightGreen-600, $lightGreen-700);
 }
 
 .green-fab {
-	@include fab-btn(#4CAF50, #43A047, #388E3C, #fff);
+	@include fab-btn($white, $green-500, $green-600, $green-700);
 }
 
 .teal-fab {
-	@include fab-btn(#009688, #00897B, #00796B, #fff);
+	@include fab-btn($white, $teal-500, $teal-600, $teal-700);
 }
 
 .cyan-fab {
-	@include fab-btn(#00BCD4, #00ACC1, #0097A7, #fff);
+	@include fab-btn($white, $cyan-500, $cyan-600, $cyan-700);
 }
 
 .lightBlue-fab {
-	@include fab-btn(#03A9F4, #039BE5, #0097A7, #fff);
+	@include fab-btn($white, $lightBlue-500, $lightBlue-600, $lightBlue-700);
 }
 
 .blue-fab {
-	@include fab-btn(#2196F3, #1E88E5, #1976D2, #fff);
+	@include fab-btn($white, $blue-500, $blue-600, $blue-700);
 }
 
 .indigo-fab {
-	@include fab-btn(#3F51B5, #3949AB, #303F9F, #fff);
+	@include fab-btn($white, $indigo-500, $indigo-600, $indigo-700);
 }
 
 .deepPurple-fab {
-	@include fab-btn(#673AB7, #5E35B1, #512DA8, #fff);
+	@include fab-btn($white, $deepPurple-500, $deepPurple-600, $deepPurple-700);
 }
 
 .purple-fab {
-	@include fab-btn(#9C27B0, #5E35B1, #512DA8, #fff);
+	@include fab-btn($white, $purple-500, $purple-600, $purple-700);
 }
 
 .grey-fab {
-	@include fab-btn(#424242, #212121, #212121, #fff);
+	@include fab-btn($white, $grey-500, $grey-600, $grey-700);
 }
 
 .blueGrey-fab {
-	@include fab-btn(#607D8B, #546E7A, #455A64, #fff);
+	@include fab-btn($white, $blueGrey-500, $blueGrey-600, $blueGrey-700);
 }
-
 /* --------------------------------
 
 mini FAB Buttons
@@ -332,79 +327,79 @@ mini FAB Buttons
 -------------------------------- */
 
 .lite-miniFab {
-	@include miniFab-btn(#fff, #F5F5F5, #EEEEEE, #757575);
+	@include miniFab-btn($white, #F5F5F5, #EEEEEE, #757575);
 }
 
 .pink-miniFab {
-	@include miniFab-btn(#E91E63, #D81B60, #C2185B, #fff);
+	@include miniFab-btn($white, $pink-500, $pink-600, $pink-700);
 }
 
 .red-miniFab {
-	@include miniFab-btn(#f44336, #e53935, #d32f2f, #fff);
+	@include miniFab-btn($white, $red-500, $red-600, $red-700);
 }
 
 .deepOrange-miniFab {
-	@include miniFab-btn(#FF5722, #F4511E, #E64A19, #fff);
+	@include miniFab-btn($white, $deepOrange-500, $deepOrange-600, $deepOrange-700);
 }
 
 .orange-miniFab {
-	@include miniFab-btn(#FF9800, #FB8C00, #F57C00, #fff);
+	@include miniFab-btn($white, $orange-500, $orange-600, $orange-700);
 }
 
 .amber-miniFab {
-	@include miniFab-btn(#FFC107, #FFB300, #FFA000, #fff);
+	@include miniFab-btn($white, $amber-500, $amber-600, $amber-700);
 }
 
 .yellow-miniFab {
-	@include miniFab-btn(#FFEB3B, #FDD835, #FBC02D, #fff);
+	@include miniFab-btn($white, $yellow-500, $yellow-600, $yellow-700);
 }
 
 .lime-miniFab {
-	@include miniFab-btn(#CDDC39, #C0CA33, #AFB42B, #fff);
+	@include miniFab-btn($white, $lime-500, $lime-600, $lime-700);
 }
 
 .lightGreen-miniFab {
-	@include miniFab-btn(#8BC34A, #7CB342, #689F38, #fff);
+	@include miniFab-btn($white, $lightGreen-500, $lightGreen-600, $lightGreen-700);
 }
 
 .green-miniFab {
-	@include miniFab-btn(#4CAF50, #43A047, #388E3C, #fff);
+	@include miniFab-btn($white, $green-500, $green-600, $green-700);
 }
 
 .teal-miniFab {
-	@include miniFab-btn(#009688, #00897B, #00796B, #fff);
+	@include miniFab-btn($white, $teal-500, $teal-600, $teal-700);
 }
 
 .cyan-miniFab {
-	@include miniFab-btn(#00BCD4, #00ACC1, #0097A7, #fff);
+	@include miniFab-btn($white, $cyan-500, $cyan-600, $cyan-700);
 }
 
 .lightBlue-miniFab {
-	@include miniFab-btn(#03A9F4, #039BE5, #0097A7, #fff);
+	@include miniFab-btn($white, $lightBlue-500, $lightBlue-600, $lightBlue-700);
 }
 
 .blue-miniFab {
-	@include miniFab-btn(#2196F3, #1E88E5, #1976D2, #fff);
+	@include miniFab-btn($white, $blue-500, $blue-600, $blue-700);
 }
 
 .indigo-miniFab {
-	@include miniFab-btn(#3F51B5, #3949AB, #303F9F, #fff);
+	@include miniFab-btn($white, $indigo-500, $indigo-600, $indigo-700);
 }
 
 .deepPurple-miniFab {
-	@include miniFab-btn(#673AB7, #5E35B1, #512DA8, #fff);
+	@include miniFab-btn($white, $deepPurple-500, $deepPurple-600, $deepPurple-700);
 }
 
 .purple-miniFab {
-	@include miniFab-btn(#9C27B0, #5E35B1, #512DA8, #fff);
+	@include miniFab-btn($white, $purple-500, $purple-600, $purple-700);
 }
 
 .grey-miniFab {
-	@include miniFab-btn(#424242, #212121, #212121, #fff);
+	@include miniFab-btn($white, $grey-500, $grey-600, $grey-700);
 }
 
 .blueGrey-miniFab {
-	@include miniFab-btn(#607D8B, #546E7A, #455A64, #fff);
+	@include miniFab-btn($white, $blueGrey-500, $blueGrey-600, $blueGrey-700);
 }
 
 /* --------------------------------
