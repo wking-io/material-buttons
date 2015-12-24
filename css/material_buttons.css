@@ -9,10 +9,10 @@ Roboto Medium
 Button Defaults
 
 -------------------------------- */
-.pink-btn, .red-btn, .deepOrange-btn, .orange-btn, .amber-btn, .yellow-btn, .lime-btn, .lightGreen-btn, .green-btn, .teal-btn, .cyan-btn, .lightBlue-btn, .blue-btn, .indigo-btn, .deepPurple-btn, .purple-btn, .grey-btn, .blueGrey-btn {
+.btn-primary--pink, .btn-primary--red, .btn-primary--deepOrange, .btn-primary--orange, .btn-primary--amber, .btn-primary--yellow, .btn-primary--lime, .btn-primary--lightGreen, .btn-primary--green, .btn-primary--teal, .btn-primary--cyan, .btn-primary--lightBlue, .btn-primary--blue, .btn-primary--indigo, .btn-primary--deepPurple, .btn-primary--purple, .btn-primary--grey, .btn-primary--blueGrey, .btn-lite--pink, .btn-lite--red, .btn-lite--deepOrange, .btn-lite--orange, .btn-lite--amber, .btn-lite--yellow, .btn-lite--lime, .btn-lite--lightGreen, .btn-lite--green, .btn-lite--teal, .btn-lite--cyan, .btn-lite--lightBlue, .btn-lite--blue, .btn-lite--indigo, .btn-lite--deepPurple, .btn-lite--purple, .btn-lite--grey, .btn-lite--blueGrey, .btn-flat--pink, .btn-flat--red, .btn-flat--deepOrange, .btn-flat--orange, .btn-flat--amber, .btn-flat--yellow, .btn-flat--lime, .btn-flat--lightGreen, .btn-flat--green, .btn-flat--teal, .btn-flat--cyan, .btn-flat--lightBlue, .btn-flat--blue, .btn-flat--indigo, .btn-flat--deepPurple, .btn-flat--purple, .btn-flat--grey, .btn-flat--blueGrey {
   border: none;
-  border-radius: 2px;
   outline: none;
+  border-radius: 2px;
   padding: 0 16px;
   min-width: 88px;
   height: 36px;
@@ -22,54 +22,28 @@ Button Defaults
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: 0.01em;
   transition: all .5s ease-out; }
 
-.pink-btn-lite, .red-btn-lite, .deepOrange-btn-lite, .orange-btn-lite, .amber-btn-lite, .yellow-btn-lite, .lime-btn-lite, .lightGreen-btn-lite, .green-btn-lite, .teal-btn-lite, .cyan-btn-lite, .lightBlue-btn-lite, .blue-btn-lite, .indigo-btn-lite, .deepPurple-btn-lite, .purple-btn-lite, .grey-btn-lite, .blueGrey-btn-lite {
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  padding: 0 16px;
-  min-width: 88px;
-  height: 36px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: Roboto, Noto, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  background-color: #fff;
-  transition: all .5s ease-out; }
-  .pink-btn-lite:hover, .red-btn-lite:hover, .deepOrange-btn-lite:hover, .orange-btn-lite:hover, .amber-btn-lite:hover, .yellow-btn-lite:hover, .lime-btn-lite:hover, .lightGreen-btn-lite:hover, .green-btn-lite:hover, .teal-btn-lite:hover, .cyan-btn-lite:hover, .lightBlue-btn-lite:hover, .blue-btn-lite:hover, .indigo-btn-lite:hover, .deepPurple-btn-lite:hover, .purple-btn-lite:hover, .grey-btn-lite:hover, .blueGrey-btn-lite:hover {
+.btn-lite--pink, .btn-lite--red, .btn-lite--deepOrange, .btn-lite--orange, .btn-lite--amber, .btn-lite--yellow, .btn-lite--lime, .btn-lite--lightGreen, .btn-lite--green, .btn-lite--teal, .btn-lite--cyan, .btn-lite--lightBlue, .btn-lite--blue, .btn-lite--indigo, .btn-lite--deepPurple, .btn-lite--purple, .btn-lite--grey, .btn-lite--blueGrey {
+  background-color: #fff; }
+  .btn-lite--pink:hover, .btn-lite--red:hover, .btn-lite--deepOrange:hover, .btn-lite--orange:hover, .btn-lite--amber:hover, .btn-lite--yellow:hover, .btn-lite--lime:hover, .btn-lite--lightGreen:hover, .btn-lite--green:hover, .btn-lite--teal:hover, .btn-lite--cyan:hover, .btn-lite--lightBlue:hover, .btn-lite--blue:hover, .btn-lite--indigo:hover, .btn-lite--deepPurple:hover, .btn-lite--purple:hover, .btn-lite--grey:hover, .btn-lite--blueGrey:hover {
     background-color: #F5F5F5; }
-  .pink-btn-lite:focus, .red-btn-lite:focus, .deepOrange-btn-lite:focus, .orange-btn-lite:focus, .amber-btn-lite:focus, .yellow-btn-lite:focus, .lime-btn-lite:focus, .lightGreen-btn-lite:focus, .green-btn-lite:focus, .teal-btn-lite:focus, .cyan-btn-lite:focus, .lightBlue-btn-lite:focus, .blue-btn-lite:focus, .indigo-btn-lite:focus, .deepPurple-btn-lite:focus, .purple-btn-lite:focus, .grey-btn-lite:focus, .blueGrey-btn-lite:focus {
+  .btn-lite--pink:focus, .btn-lite--red:focus, .btn-lite--deepOrange:focus, .btn-lite--orange:focus, .btn-lite--amber:focus, .btn-lite--yellow:focus, .btn-lite--lime:focus, .btn-lite--lightGreen:focus, .btn-lite--green:focus, .btn-lite--teal:focus, .btn-lite--cyan:focus, .btn-lite--lightBlue:focus, .btn-lite--blue:focus, .btn-lite--indigo:focus, .btn-lite--deepPurple:focus, .btn-lite--purple:focus, .btn-lite--grey:focus, .btn-lite--blueGrey:focus {
     background-color: #F5F5F5; }
-  .pink-btn-lite:active, .red-btn-lite:active, .deepOrange-btn-lite:active, .orange-btn-lite:active, .amber-btn-lite:active, .yellow-btn-lite:active, .lime-btn-lite:active, .lightGreen-btn-lite:active, .green-btn-lite:active, .teal-btn-lite:active, .cyan-btn-lite:active, .lightBlue-btn-lite:active, .blue-btn-lite:active, .indigo-btn-lite:active, .deepPurple-btn-lite:active, .purple-btn-lite:active, .grey-btn-lite:active, .blueGrey-btn-lite:active {
+  .btn-lite--pink:active, .btn-lite--red:active, .btn-lite--deepOrange:active, .btn-lite--orange:active, .btn-lite--amber:active, .btn-lite--yellow:active, .btn-lite--lime:active, .btn-lite--lightGreen:active, .btn-lite--green:active, .btn-lite--teal:active, .btn-lite--cyan:active, .btn-lite--lightBlue:active, .btn-lite--blue:active, .btn-lite--indigo:active, .btn-lite--deepPurple:active, .btn-lite--purple:active, .btn-lite--grey:active, .btn-lite--blueGrey:active {
     background-color: #EEEEEE; }
 
-.pink-flat, .red-flat, .deepOrange-flat, .orange-flat, .amber-flat, .yellow-flat, .lime-flat, .lightGreen-flat, .green-flat, .teal-flat, .cyan-flat, .lightBlue-flat, .blue-flat, .indigo-flat, .deepPurple-flat, .purple-flat, .grey-flat, .blueGrey-flat {
-  background-color: transparent;
-  letter-spacing: 0.01em;
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  padding: 0 16px;
-  min-width: 88px;
-  height: 36px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: Roboto, Noto, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all .5s ease-out; }
-  .pink-flat:hover, .red-flat:hover, .deepOrange-flat:hover, .orange-flat:hover, .amber-flat:hover, .yellow-flat:hover, .lime-flat:hover, .lightGreen-flat:hover, .green-flat:hover, .teal-flat:hover, .cyan-flat:hover, .lightBlue-flat:hover, .blue-flat:hover, .indigo-flat:hover, .deepPurple-flat:hover, .purple-flat:hover, .grey-flat:hover, .blueGrey-flat:hover {
+.btn-flat--pink, .btn-flat--red, .btn-flat--deepOrange, .btn-flat--orange, .btn-flat--amber, .btn-flat--yellow, .btn-flat--lime, .btn-flat--lightGreen, .btn-flat--green, .btn-flat--teal, .btn-flat--cyan, .btn-flat--lightBlue, .btn-flat--blue, .btn-flat--indigo, .btn-flat--deepPurple, .btn-flat--purple, .btn-flat--grey, .btn-flat--blueGrey {
+  background-color: transparent; }
+  .btn-flat--pink:hover, .btn-flat--red:hover, .btn-flat--deepOrange:hover, .btn-flat--orange:hover, .btn-flat--amber:hover, .btn-flat--yellow:hover, .btn-flat--lime:hover, .btn-flat--lightGreen:hover, .btn-flat--green:hover, .btn-flat--teal:hover, .btn-flat--cyan:hover, .btn-flat--lightBlue:hover, .btn-flat--blue:hover, .btn-flat--indigo:hover, .btn-flat--deepPurple:hover, .btn-flat--purple:hover, .btn-flat--grey:hover, .btn-flat--blueGrey:hover {
     background-color: rgba(153, 153, 153, 0.2); }
-  .pink-flat:focus, .red-flat:focus, .deepOrange-flat:focus, .orange-flat:focus, .amber-flat:focus, .yellow-flat:focus, .lime-flat:focus, .lightGreen-flat:focus, .green-flat:focus, .teal-flat:focus, .cyan-flat:focus, .lightBlue-flat:focus, .blue-flat:focus, .indigo-flat:focus, .deepPurple-flat:focus, .purple-flat:focus, .grey-flat:focus, .blueGrey-flat:focus {
+  .btn-flat--pink:focus, .btn-flat--red:focus, .btn-flat--deepOrange:focus, .btn-flat--orange:focus, .btn-flat--amber:focus, .btn-flat--yellow:focus, .btn-flat--lime:focus, .btn-flat--lightGreen:focus, .btn-flat--green:focus, .btn-flat--teal:focus, .btn-flat--cyan:focus, .btn-flat--lightBlue:focus, .btn-flat--blue:focus, .btn-flat--indigo:focus, .btn-flat--deepPurple:focus, .btn-flat--purple:focus, .btn-flat--grey:focus, .btn-flat--blueGrey:focus {
     background-color: rgba(153, 153, 153, 0.2); }
-  .pink-flat:active, .red-flat:active, .deepOrange-flat:active, .orange-flat:active, .amber-flat:active, .yellow-flat:active, .lime-flat:active, .lightGreen-flat:active, .green-flat:active, .teal-flat:active, .cyan-flat:active, .lightBlue-flat:active, .blue-flat:active, .indigo-flat:active, .deepPurple-flat:active, .purple-flat:active, .grey-flat:active, .blueGrey-flat:active {
+  .btn-flat--pink:active, .btn-flat--red:active, .btn-flat--deepOrange:active, .btn-flat--orange:active, .btn-flat--amber:active, .btn-flat--yellow:active, .btn-flat--lime:active, .btn-flat--lightGreen:active, .btn-flat--green:active, .btn-flat--teal:active, .btn-flat--cyan:active, .btn-flat--lightBlue:active, .btn-flat--blue:active, .btn-flat--indigo:active, .btn-flat--deepPurple:active, .btn-flat--purple:active, .btn-flat--grey:active, .btn-flat--blueGrey:active {
     background-color: rgba(153, 153, 153, 0.4); }
 
-.pink-fab, .red-fab, .deepOrange-fab, .orange-fab, .amber-fab, .yellow-fab, .lime-fab, .lightGreen-fab, .green-fab, .teal-fab, .cyan-fab, .lightBlue-fab, .blue-fab, .indigo-fab, .deepPurple-fab, .purple-fab, .grey-fab, .blueGrey-fab {
+.btn-fab--pink, .btn-fab--red, .btn-fab--deepOrange, .btn-fab--orange, .btn-fab--amber, .btn-fab--yellow, .btn-fab--lime, .btn-fab--lightGreen, .btn-fab--green, .btn-fab--teal, .btn-fab--cyan, .btn-fab--lightBlue, .btn-fab--blue, .btn-fab--indigo, .btn-fab--deepPurple, .btn-fab--purple, .btn-fab--grey, .btn-fab--blueGrey {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -79,7 +53,7 @@ Button Defaults
   height: 56px;
   outline: none;
   transition: all .5s ease-out; }
-  .pink-fab i, .red-fab i, .deepOrange-fab i, .orange-fab i, .amber-fab i, .yellow-fab i, .lime-fab i, .lightGreen-fab i, .green-fab i, .teal-fab i, .cyan-fab i, .lightBlue-fab i, .blue-fab i, .indigo-fab i, .deepPurple-fab i, .purple-fab i, .grey-fab i, .blueGrey-fab i {
+  .btn-fab--pink i, .btn-fab--red i, .btn-fab--deepOrange i, .btn-fab--orange i, .btn-fab--amber i, .btn-fab--yellow i, .btn-fab--lime i, .btn-fab--lightGreen i, .btn-fab--green i, .btn-fab--teal i, .btn-fab--cyan i, .btn-fab--lightBlue i, .btn-fab--blue i, .btn-fab--indigo i, .btn-fab--deepPurple i, .btn-fab--purple i, .btn-fab--grey i, .btn-fab--blueGrey i {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
@@ -87,7 +61,7 @@ Button Defaults
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.lite-miniFab, .pink-miniFab, .red-miniFab, .deepOrange-miniFab, .orange-miniFab, .amber-miniFab, .yellow-miniFab, .lime-miniFab, .lightGreen-miniFab, .green-miniFab, .teal-miniFab, .cyan-miniFab, .lightBlue-miniFab, .blue-miniFab, .indigo-miniFab, .deepPurple-miniFab, .purple-miniFab, .grey-miniFab, .blueGrey-miniFab {
+.btn-miniFab--lite, .btn-miniFab--pink, .btn-miniFab--red, .btn-miniFab--deepOrange, .btn-miniFab--orange, .btn-miniFab--amber, .btn-miniFab--yellow, .btn-miniFab--lime, .btn-miniFab--lightGreen, .btn-miniFab--green, .btn-miniFab--teal, .btn-miniFab--cyan, .btn-miniFab--lightBlue, .btn-miniFab--blue, .btn-miniFab--indigo, .btn-miniFab--deepPurple, .btn-miniFab--purple, .btn-miniFab--grey, .btn-miniFab--blueGrey {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -97,7 +71,7 @@ Button Defaults
   height: 40px;
   outline: none;
   transition: all .5s ease-out; }
-  .lite-miniFab i, .pink-miniFab i, .red-miniFab i, .deepOrange-miniFab i, .orange-miniFab i, .amber-miniFab i, .yellow-miniFab i, .lime-miniFab i, .lightGreen-miniFab i, .green-miniFab i, .teal-miniFab i, .cyan-miniFab i, .lightBlue-miniFab i, .blue-miniFab i, .indigo-miniFab i, .deepPurple-miniFab i, .purple-miniFab i, .grey-miniFab i, .blueGrey-miniFab i {
+  .btn-miniFab--lite i, .btn-miniFab--pink i, .btn-miniFab--red i, .btn-miniFab--deepOrange i, .btn-miniFab--orange i, .btn-miniFab--amber i, .btn-miniFab--yellow i, .btn-miniFab--lime i, .btn-miniFab--lightGreen i, .btn-miniFab--green i, .btn-miniFab--teal i, .btn-miniFab--cyan i, .btn-miniFab--lightBlue i, .btn-miniFab--blue i, .btn-miniFab--indigo i, .btn-miniFab--deepPurple i, .btn-miniFab--purple i, .btn-miniFab--grey i, .btn-miniFab--blueGrey i {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
@@ -105,29 +79,29 @@ Button Defaults
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.pink-btn, .red-btn, .deepOrange-btn, .orange-btn, .amber-btn, .yellow-btn, .lime-btn, .lightGreen-btn, .green-btn, .teal-btn, .cyan-btn, .lightBlue-btn, .blue-btn, .indigo-btn, .deepPurple-btn, .purple-btn, .grey-btn, .blueGrey-btn, .pink-btn-lite, .red-btn-lite, .deepOrange-btn-lite, .orange-btn-lite, .amber-btn-lite, .yellow-btn-lite, .lime-btn-lite, .lightGreen-btn-lite, .green-btn-lite, .teal-btn-lite, .cyan-btn-lite, .lightBlue-btn-lite, .blue-btn-lite, .indigo-btn-lite, .deepPurple-btn-lite, .purple-btn-lite, .grey-btn-lite, .blueGrey-btn-lite {
+.btn-primary--pink, .btn-primary--red, .btn-primary--deepOrange, .btn-primary--orange, .btn-primary--amber, .btn-primary--yellow, .btn-primary--lime, .btn-primary--lightGreen, .btn-primary--green, .btn-primary--teal, .btn-primary--cyan, .btn-primary--lightBlue, .btn-primary--blue, .btn-primary--indigo, .btn-primary--deepPurple, .btn-primary--purple, .btn-primary--grey, .btn-primary--blueGrey, .btn-lite--pink, .btn-lite--red, .btn-lite--deepOrange, .btn-lite--orange, .btn-lite--amber, .btn-lite--yellow, .btn-lite--lime, .btn-lite--lightGreen, .btn-lite--green, .btn-lite--teal, .btn-lite--cyan, .btn-lite--lightBlue, .btn-lite--blue, .btn-lite--indigo, .btn-lite--deepPurple, .btn-lite--purple, .btn-lite--grey, .btn-lite--blueGrey {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-  .pink-btn:hover, .red-btn:hover, .deepOrange-btn:hover, .orange-btn:hover, .amber-btn:hover, .yellow-btn:hover, .lime-btn:hover, .lightGreen-btn:hover, .green-btn:hover, .teal-btn:hover, .cyan-btn:hover, .lightBlue-btn:hover, .blue-btn:hover, .indigo-btn:hover, .deepPurple-btn:hover, .purple-btn:hover, .grey-btn:hover, .blueGrey-btn:hover, .pink-btn-lite:hover, .red-btn-lite:hover, .deepOrange-btn-lite:hover, .orange-btn-lite:hover, .amber-btn-lite:hover, .yellow-btn-lite:hover, .lime-btn-lite:hover, .lightGreen-btn-lite:hover, .green-btn-lite:hover, .teal-btn-lite:hover, .cyan-btn-lite:hover, .lightBlue-btn-lite:hover, .blue-btn-lite:hover, .indigo-btn-lite:hover, .deepPurple-btn-lite:hover, .purple-btn-lite:hover, .grey-btn-lite:hover, .blueGrey-btn-lite:hover {
+  .btn-primary--pink:hover, .btn-primary--red:hover, .btn-primary--deepOrange:hover, .btn-primary--orange:hover, .btn-primary--amber:hover, .btn-primary--yellow:hover, .btn-primary--lime:hover, .btn-primary--lightGreen:hover, .btn-primary--green:hover, .btn-primary--teal:hover, .btn-primary--cyan:hover, .btn-primary--lightBlue:hover, .btn-primary--blue:hover, .btn-primary--indigo:hover, .btn-primary--deepPurple:hover, .btn-primary--purple:hover, .btn-primary--grey:hover, .btn-primary--blueGrey:hover, .btn-lite--pink:hover, .btn-lite--red:hover, .btn-lite--deepOrange:hover, .btn-lite--orange:hover, .btn-lite--amber:hover, .btn-lite--yellow:hover, .btn-lite--lime:hover, .btn-lite--lightGreen:hover, .btn-lite--green:hover, .btn-lite--teal:hover, .btn-lite--cyan:hover, .btn-lite--lightBlue:hover, .btn-lite--blue:hover, .btn-lite--indigo:hover, .btn-lite--deepPurple:hover, .btn-lite--purple:hover, .btn-lite--grey:hover, .btn-lite--blueGrey:hover {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .pink-btn:focus, .red-btn:focus, .deepOrange-btn:focus, .orange-btn:focus, .amber-btn:focus, .yellow-btn:focus, .lime-btn:focus, .lightGreen-btn:focus, .green-btn:focus, .teal-btn:focus, .cyan-btn:focus, .lightBlue-btn:focus, .blue-btn:focus, .indigo-btn:focus, .deepPurple-btn:focus, .purple-btn:focus, .grey-btn:focus, .blueGrey-btn:focus, .pink-btn-lite:focus, .red-btn-lite:focus, .deepOrange-btn-lite:focus, .orange-btn-lite:focus, .amber-btn-lite:focus, .yellow-btn-lite:focus, .lime-btn-lite:focus, .lightGreen-btn-lite:focus, .green-btn-lite:focus, .teal-btn-lite:focus, .cyan-btn-lite:focus, .lightBlue-btn-lite:focus, .blue-btn-lite:focus, .indigo-btn-lite:focus, .deepPurple-btn-lite:focus, .purple-btn-lite:focus, .grey-btn-lite:focus, .blueGrey-btn-lite:focus {
+  .btn-primary--pink:focus, .btn-primary--red:focus, .btn-primary--deepOrange:focus, .btn-primary--orange:focus, .btn-primary--amber:focus, .btn-primary--yellow:focus, .btn-primary--lime:focus, .btn-primary--lightGreen:focus, .btn-primary--green:focus, .btn-primary--teal:focus, .btn-primary--cyan:focus, .btn-primary--lightBlue:focus, .btn-primary--blue:focus, .btn-primary--indigo:focus, .btn-primary--deepPurple:focus, .btn-primary--purple:focus, .btn-primary--grey:focus, .btn-primary--blueGrey:focus, .btn-lite--pink:focus, .btn-lite--red:focus, .btn-lite--deepOrange:focus, .btn-lite--orange:focus, .btn-lite--amber:focus, .btn-lite--yellow:focus, .btn-lite--lime:focus, .btn-lite--lightGreen:focus, .btn-lite--green:focus, .btn-lite--teal:focus, .btn-lite--cyan:focus, .btn-lite--lightBlue:focus, .btn-lite--blue:focus, .btn-lite--indigo:focus, .btn-lite--deepPurple:focus, .btn-lite--purple:focus, .btn-lite--grey:focus, .btn-lite--blueGrey:focus {
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .pink-btn:active, .red-btn:active, .deepOrange-btn:active, .orange-btn:active, .amber-btn:active, .yellow-btn:active, .lime-btn:active, .lightGreen-btn:active, .green-btn:active, .teal-btn:active, .cyan-btn:active, .lightBlue-btn:active, .blue-btn:active, .indigo-btn:active, .deepPurple-btn:active, .purple-btn:active, .grey-btn:active, .blueGrey-btn:active, .pink-btn-lite:active, .red-btn-lite:active, .deepOrange-btn-lite:active, .orange-btn-lite:active, .amber-btn-lite:active, .yellow-btn-lite:active, .lime-btn-lite:active, .lightGreen-btn-lite:active, .green-btn-lite:active, .teal-btn-lite:active, .cyan-btn-lite:active, .lightBlue-btn-lite:active, .blue-btn-lite:active, .indigo-btn-lite:active, .deepPurple-btn-lite:active, .purple-btn-lite:active, .grey-btn-lite:active, .blueGrey-btn-lite:active {
+  .btn-primary--pink:active, .btn-primary--red:active, .btn-primary--deepOrange:active, .btn-primary--orange:active, .btn-primary--amber:active, .btn-primary--yellow:active, .btn-primary--lime:active, .btn-primary--lightGreen:active, .btn-primary--green:active, .btn-primary--teal:active, .btn-primary--cyan:active, .btn-primary--lightBlue:active, .btn-primary--blue:active, .btn-primary--indigo:active, .btn-primary--deepPurple:active, .btn-primary--purple:active, .btn-primary--grey:active, .btn-primary--blueGrey:active, .btn-lite--pink:active, .btn-lite--red:active, .btn-lite--deepOrange:active, .btn-lite--orange:active, .btn-lite--amber:active, .btn-lite--yellow:active, .btn-lite--lime:active, .btn-lite--lightGreen:active, .btn-lite--green:active, .btn-lite--teal:active, .btn-lite--cyan:active, .btn-lite--lightBlue:active, .btn-lite--blue:active, .btn-lite--indigo:active, .btn-lite--deepPurple:active, .btn-lite--purple:active, .btn-lite--grey:active, .btn-lite--blueGrey:active {
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
-.pink-fab, .red-fab, .deepOrange-fab, .orange-fab, .amber-fab, .yellow-fab, .lime-fab, .lightGreen-fab, .green-fab, .teal-fab, .cyan-fab, .lightBlue-fab, .blue-fab, .indigo-fab, .deepPurple-fab, .purple-fab, .grey-fab, .blueGrey-fab, .lite-miniFab, .pink-miniFab, .red-miniFab, .deepOrange-miniFab, .orange-miniFab, .amber-miniFab, .yellow-miniFab, .lime-miniFab, .lightGreen-miniFab, .green-miniFab, .teal-miniFab, .cyan-miniFab, .lightBlue-miniFab, .blue-miniFab, .indigo-miniFab, .deepPurple-miniFab, .purple-miniFab, .grey-miniFab, .blueGrey-miniFab {
+.btn-fab--pink, .btn-fab--red, .btn-fab--deepOrange, .btn-fab--orange, .btn-fab--amber, .btn-fab--yellow, .btn-fab--lime, .btn-fab--lightGreen, .btn-fab--green, .btn-fab--teal, .btn-fab--cyan, .btn-fab--lightBlue, .btn-fab--blue, .btn-fab--indigo, .btn-fab--deepPurple, .btn-fab--purple, .btn-fab--grey, .btn-fab--blueGrey, .btn-miniFab--lite, .btn-miniFab--pink, .btn-miniFab--red, .btn-miniFab--deepOrange, .btn-miniFab--orange, .btn-miniFab--amber, .btn-miniFab--yellow, .btn-miniFab--lime, .btn-miniFab--lightGreen, .btn-miniFab--green, .btn-miniFab--teal, .btn-miniFab--cyan, .btn-miniFab--lightBlue, .btn-miniFab--blue, .btn-miniFab--indigo, .btn-miniFab--deepPurple, .btn-miniFab--purple, .btn-miniFab--grey, .btn-miniFab--blueGrey {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-  .pink-fab:hover, .red-fab:hover, .deepOrange-fab:hover, .orange-fab:hover, .amber-fab:hover, .yellow-fab:hover, .lime-fab:hover, .lightGreen-fab:hover, .green-fab:hover, .teal-fab:hover, .cyan-fab:hover, .lightBlue-fab:hover, .blue-fab:hover, .indigo-fab:hover, .deepPurple-fab:hover, .purple-fab:hover, .grey-fab:hover, .blueGrey-fab:hover, .lite-miniFab:hover, .pink-miniFab:hover, .red-miniFab:hover, .deepOrange-miniFab:hover, .orange-miniFab:hover, .amber-miniFab:hover, .yellow-miniFab:hover, .lime-miniFab:hover, .lightGreen-miniFab:hover, .green-miniFab:hover, .teal-miniFab:hover, .cyan-miniFab:hover, .lightBlue-miniFab:hover, .blue-miniFab:hover, .indigo-miniFab:hover, .deepPurple-miniFab:hover, .purple-miniFab:hover, .grey-miniFab:hover, .blueGrey-miniFab:hover {
+  .btn-fab--pink:hover, .btn-fab--red:hover, .btn-fab--deepOrange:hover, .btn-fab--orange:hover, .btn-fab--amber:hover, .btn-fab--yellow:hover, .btn-fab--lime:hover, .btn-fab--lightGreen:hover, .btn-fab--green:hover, .btn-fab--teal:hover, .btn-fab--cyan:hover, .btn-fab--lightBlue:hover, .btn-fab--blue:hover, .btn-fab--indigo:hover, .btn-fab--deepPurple:hover, .btn-fab--purple:hover, .btn-fab--grey:hover, .btn-fab--blueGrey:hover, .btn-miniFab--lite:hover, .btn-miniFab--pink:hover, .btn-miniFab--red:hover, .btn-miniFab--deepOrange:hover, .btn-miniFab--orange:hover, .btn-miniFab--amber:hover, .btn-miniFab--yellow:hover, .btn-miniFab--lime:hover, .btn-miniFab--lightGreen:hover, .btn-miniFab--green:hover, .btn-miniFab--teal:hover, .btn-miniFab--cyan:hover, .btn-miniFab--lightBlue:hover, .btn-miniFab--blue:hover, .btn-miniFab--indigo:hover, .btn-miniFab--deepPurple:hover, .btn-miniFab--purple:hover, .btn-miniFab--grey:hover, .btn-miniFab--blueGrey:hover {
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  .pink-fab:focus, .red-fab:focus, .deepOrange-fab:focus, .orange-fab:focus, .amber-fab:focus, .yellow-fab:focus, .lime-fab:focus, .lightGreen-fab:focus, .green-fab:focus, .teal-fab:focus, .cyan-fab:focus, .lightBlue-fab:focus, .blue-fab:focus, .indigo-fab:focus, .deepPurple-fab:focus, .purple-fab:focus, .grey-fab:focus, .blueGrey-fab:focus, .lite-miniFab:focus, .pink-miniFab:focus, .red-miniFab:focus, .deepOrange-miniFab:focus, .orange-miniFab:focus, .amber-miniFab:focus, .yellow-miniFab:focus, .lime-miniFab:focus, .lightGreen-miniFab:focus, .green-miniFab:focus, .teal-miniFab:focus, .cyan-miniFab:focus, .lightBlue-miniFab:focus, .blue-miniFab:focus, .indigo-miniFab:focus, .deepPurple-miniFab:focus, .purple-miniFab:focus, .grey-miniFab:focus, .blueGrey-miniFab:focus {
+  .btn-fab--pink:focus, .btn-fab--red:focus, .btn-fab--deepOrange:focus, .btn-fab--orange:focus, .btn-fab--amber:focus, .btn-fab--yellow:focus, .btn-fab--lime:focus, .btn-fab--lightGreen:focus, .btn-fab--green:focus, .btn-fab--teal:focus, .btn-fab--cyan:focus, .btn-fab--lightBlue:focus, .btn-fab--blue:focus, .btn-fab--indigo:focus, .btn-fab--deepPurple:focus, .btn-fab--purple:focus, .btn-fab--grey:focus, .btn-fab--blueGrey:focus, .btn-miniFab--lite:focus, .btn-miniFab--pink:focus, .btn-miniFab--red:focus, .btn-miniFab--deepOrange:focus, .btn-miniFab--orange:focus, .btn-miniFab--amber:focus, .btn-miniFab--yellow:focus, .btn-miniFab--lime:focus, .btn-miniFab--lightGreen:focus, .btn-miniFab--green:focus, .btn-miniFab--teal:focus, .btn-miniFab--cyan:focus, .btn-miniFab--lightBlue:focus, .btn-miniFab--blue:focus, .btn-miniFab--indigo:focus, .btn-miniFab--deepPurple:focus, .btn-miniFab--purple:focus, .btn-miniFab--grey:focus, .btn-miniFab--blueGrey:focus {
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
-  .pink-fab:active, .red-fab:active, .deepOrange-fab:active, .orange-fab:active, .amber-fab:active, .yellow-fab:active, .lime-fab:active, .lightGreen-fab:active, .green-fab:active, .teal-fab:active, .cyan-fab:active, .lightBlue-fab:active, .blue-fab:active, .indigo-fab:active, .deepPurple-fab:active, .purple-fab:active, .grey-fab:active, .blueGrey-fab:active, .lite-miniFab:active, .pink-miniFab:active, .red-miniFab:active, .deepOrange-miniFab:active, .orange-miniFab:active, .amber-miniFab:active, .yellow-miniFab:active, .lime-miniFab:active, .lightGreen-miniFab:active, .green-miniFab:active, .teal-miniFab:active, .cyan-miniFab:active, .lightBlue-miniFab:active, .blue-miniFab:active, .indigo-miniFab:active, .deepPurple-miniFab:active, .purple-miniFab:active, .grey-miniFab:active, .blueGrey-miniFab:active {
+  .btn-fab--pink:active, .btn-fab--red:active, .btn-fab--deepOrange:active, .btn-fab--orange:active, .btn-fab--amber:active, .btn-fab--yellow:active, .btn-fab--lime:active, .btn-fab--lightGreen:active, .btn-fab--green:active, .btn-fab--teal:active, .btn-fab--cyan:active, .btn-fab--lightBlue:active, .btn-fab--blue:active, .btn-fab--indigo:active, .btn-fab--deepPurple:active, .btn-fab--purple:active, .btn-fab--grey:active, .btn-fab--blueGrey:active, .btn-miniFab--lite:active, .btn-miniFab--pink:active, .btn-miniFab--red:active, .btn-miniFab--deepOrange:active, .btn-miniFab--orange:active, .btn-miniFab--amber:active, .btn-miniFab--yellow:active, .btn-miniFab--lime:active, .btn-miniFab--lightGreen:active, .btn-miniFab--green:active, .btn-miniFab--teal:active, .btn-miniFab--cyan:active, .btn-miniFab--lightBlue:active, .btn-miniFab--blue:active, .btn-miniFab--indigo:active, .btn-miniFab--deepPurple:active, .btn-miniFab--purple:active, .btn-miniFab--grey:active, .btn-miniFab--blueGrey:active {
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
@@ -136,184 +110,184 @@ Button Defaults
 Primary Buttons
 
 -------------------------------- */
-.pink-btn {
+.btn-primary--pink {
   color: #fff;
   background-color: #E91E63; }
-  .pink-btn:hover {
+  .btn-primary--pink:hover {
     background-color: #D81B60; }
-  .pink-btn:focus {
+  .btn-primary--pink:focus {
     background-color: #D81B60; }
-  .pink-btn:active {
+  .btn-primary--pink:active {
     background-color: #C2185B; }
 
-.red-btn {
+.btn-primary--red {
   color: #fff;
   background-color: #f44336; }
-  .red-btn:hover {
+  .btn-primary--red:hover {
     background-color: #e53935; }
-  .red-btn:focus {
+  .btn-primary--red:focus {
     background-color: #e53935; }
-  .red-btn:active {
+  .btn-primary--red:active {
     background-color: #d32f2f; }
 
-.deepOrange-btn {
+.btn-primary--deepOrange {
   color: #fff;
   background-color: #FF5722; }
-  .deepOrange-btn:hover {
+  .btn-primary--deepOrange:hover {
     background-color: #F4511E; }
-  .deepOrange-btn:focus {
+  .btn-primary--deepOrange:focus {
     background-color: #F4511E; }
-  .deepOrange-btn:active {
+  .btn-primary--deepOrange:active {
     background-color: #E64A19; }
 
-.orange-btn {
+.btn-primary--orange {
   color: #fff;
   background-color: #FFC107; }
-  .orange-btn:hover {
+  .btn-primary--orange:hover {
     background-color: #FFB300; }
-  .orange-btn:focus {
+  .btn-primary--orange:focus {
     background-color: #FFB300; }
-  .orange-btn:active {
+  .btn-primary--orange:active {
     background-color: #FFA000; }
 
-.amber-btn {
+.btn-primary--amber {
   color: #fff;
   background-color: #FFC107; }
-  .amber-btn:hover {
+  .btn-primary--amber:hover {
     background-color: #FFB300; }
-  .amber-btn:focus {
+  .btn-primary--amber:focus {
     background-color: #FFB300; }
-  .amber-btn:active {
+  .btn-primary--amber:active {
     background-color: #FFA000; }
 
-.yellow-btn {
+.btn-primary--yellow {
   color: #fff;
   background-color: #FFEB3B; }
-  .yellow-btn:hover {
+  .btn-primary--yellow:hover {
     background-color: #FDD835; }
-  .yellow-btn:focus {
+  .btn-primary--yellow:focus {
     background-color: #FDD835; }
-  .yellow-btn:active {
+  .btn-primary--yellow:active {
     background-color: #FBC02D; }
 
-.lime-btn {
+.btn-primary--lime {
   color: #fff;
   background-color: #CDDC39; }
-  .lime-btn:hover {
+  .btn-primary--lime:hover {
     background-color: #C0CA33; }
-  .lime-btn:focus {
+  .btn-primary--lime:focus {
     background-color: #C0CA33; }
-  .lime-btn:active {
+  .btn-primary--lime:active {
     background-color: #AFB42B; }
 
-.lightGreen-btn {
+.btn-primary--lightGreen {
   color: #fff;
   background-color: #8BC34A; }
-  .lightGreen-btn:hover {
+  .btn-primary--lightGreen:hover {
     background-color: #7CB342; }
-  .lightGreen-btn:focus {
+  .btn-primary--lightGreen:focus {
     background-color: #7CB342; }
-  .lightGreen-btn:active {
+  .btn-primary--lightGreen:active {
     background-color: #689F38; }
 
-.green-btn {
+.btn-primary--green {
   color: #fff;
   background-color: #4CAF50; }
-  .green-btn:hover {
+  .btn-primary--green:hover {
     background-color: #43A047; }
-  .green-btn:focus {
+  .btn-primary--green:focus {
     background-color: #43A047; }
-  .green-btn:active {
+  .btn-primary--green:active {
     background-color: #388E3C; }
 
-.teal-btn {
+.btn-primary--teal {
   color: #fff;
   background-color: #009688; }
-  .teal-btn:hover {
+  .btn-primary--teal:hover {
     background-color: #00897B; }
-  .teal-btn:focus {
+  .btn-primary--teal:focus {
     background-color: #00897B; }
-  .teal-btn:active {
+  .btn-primary--teal:active {
     background-color: #00796B; }
 
-.cyan-btn {
+.btn-primary--cyan {
   color: #fff;
   background-color: #00BCD4; }
-  .cyan-btn:hover {
+  .btn-primary--cyan:hover {
     background-color: #00ACC1; }
-  .cyan-btn:focus {
+  .btn-primary--cyan:focus {
     background-color: #00ACC1; }
-  .cyan-btn:active {
+  .btn-primary--cyan:active {
     background-color: #0097A7; }
 
-.lightBlue-btn {
+.btn-primary--lightBlue {
   color: #fff;
   background-color: #03A9F4; }
-  .lightBlue-btn:hover {
+  .btn-primary--lightBlue:hover {
     background-color: #039BE5; }
-  .lightBlue-btn:focus {
+  .btn-primary--lightBlue:focus {
     background-color: #039BE5; }
-  .lightBlue-btn:active {
+  .btn-primary--lightBlue:active {
     background-color: #0097A7; }
 
-.blue-btn {
+.btn-primary--blue {
   color: #fff;
   background-color: #2196F3; }
-  .blue-btn:hover {
+  .btn-primary--blue:hover {
     background-color: #1E88E5; }
-  .blue-btn:focus {
+  .btn-primary--blue:focus {
     background-color: #1E88E5; }
-  .blue-btn:active {
+  .btn-primary--blue:active {
     background-color: #1976D2; }
 
-.indigo-btn {
+.btn-primary--indigo {
   color: #fff;
   background-color: #3F51B5; }
-  .indigo-btn:hover {
+  .btn-primary--indigo:hover {
     background-color: #3949AB; }
-  .indigo-btn:focus {
+  .btn-primary--indigo:focus {
     background-color: #3949AB; }
-  .indigo-btn:active {
+  .btn-primary--indigo:active {
     background-color: #303F9F; }
 
-.deepPurple-btn {
+.btn-primary--deepPurple {
   color: #fff;
   background-color: #673AB7; }
-  .deepPurple-btn:hover {
+  .btn-primary--deepPurple:hover {
     background-color: #5E35B1; }
-  .deepPurple-btn:focus {
+  .btn-primary--deepPurple:focus {
     background-color: #5E35B1; }
-  .deepPurple-btn:active {
+  .btn-primary--deepPurple:active {
     background-color: #512DA8; }
 
-.purple-btn {
+.btn-primary--purple {
   color: #fff;
   background-color: #9C27B0; }
-  .purple-btn:hover {
+  .btn-primary--purple:hover {
     background-color: #5E35B1; }
-  .purple-btn:focus {
+  .btn-primary--purple:focus {
     background-color: #5E35B1; }
-  .purple-btn:active {
+  .btn-primary--purple:active {
     background-color: #512DA8; }
 
-.grey-btn {
+.btn-primary--grey {
   color: #fff;
   background-color: #424242; }
-  .grey-btn:hover {
+  .btn-primary--grey:hover {
     background-color: #212121; }
-  .grey-btn:focus {
+  .btn-primary--grey:focus {
     background-color: #212121; }
-  .grey-btn:active {
+  .btn-primary--grey:active {
     background-color: #212121; }
 
-.blueGrey-btn {
+.btn-primary--blueGrey {
   color: #fff;
   background-color: #607D8B; }
-  .blueGrey-btn:hover {
+  .btn-primary--blueGrey:hover {
     background-color: #546E7A; }
-  .blueGrey-btn:focus {
+  .btn-primary--blueGrey:focus {
     background-color: #546E7A; }
-  .blueGrey-btn:active {
+  .btn-primary--blueGrey:active {
     background-color: #455A64; }
 
 /* --------------------------------
@@ -321,58 +295,58 @@ Primary Buttons
 Primary Buttons [ lite ]
 
 -------------------------------- */
-.pink-btn-lite {
+.btn-lite--pink {
   color: #E91E63; }
 
-.red-btn-lite {
+.btn-lite--red {
   color: #f44336; }
 
-.deepOrange-btn-lite {
+.btn-lite--deepOrange {
   color: #FF5722; }
 
-.orange-btn-lite {
+.btn-lite--orange {
   color: #FFC107; }
 
-.amber-btn-lite {
+.btn-lite--amber {
   color: #FFC107; }
 
-.yellow-btn-lite {
+.btn-lite--yellow {
   color: #FFEB3B; }
 
-.lime-btn-lite {
+.btn-lite--lime {
   color: #CDDC39; }
 
-.lightGreen-btn-lite {
+.btn-lite--lightGreen {
   color: #8BC34A; }
 
-.green-btn-lite {
+.btn-lite--green {
   color: #4CAF50; }
 
-.teal-btn-lite {
+.btn-lite--teal {
   color: #009688; }
 
-.cyan-btn-lite {
+.btn-lite--cyan {
   color: #00BCD4; }
 
-.lightBlue-btn-lite {
+.btn-lite--lightBlue {
   color: #03A9F4; }
 
-.blue-btn-lite {
+.btn-lite--blue {
   color: #2196F3; }
 
-.indigo-btn-lite {
+.btn-lite--indigo {
   color: #3F51B5; }
 
-.deepPurple-btn-lite {
+.btn-lite--deepPurple {
   color: #673AB7; }
 
-.purple-btn-lite {
+.btn-lite--purple {
   color: #9C27B0; }
 
-.grey-btn-lite {
+.btn-lite--grey {
   color: #424242; }
 
-.blueGrey-btn-lite {
+.btn-lite--blueGrey {
   color: #607D8B; }
 
 /* --------------------------------
@@ -380,58 +354,58 @@ Primary Buttons [ lite ]
 Flat Buttons
 
 -------------------------------- */
-.pink-flat {
+.btn-flat--pink {
   color: #E91E63; }
 
-.red-flat {
+.btn-flat--red {
   color: #f44336; }
 
-.deepOrange-flat {
+.btn-flat--deepOrange {
   color: #FF5722; }
 
-.orange-flat {
+.btn-flat--orange {
   color: #FFC107; }
 
-.amber-flat {
+.btn-flat--amber {
   color: #FFC107; }
 
-.yellow-flat {
+.btn-flat--yellow {
   color: #FFEB3B; }
 
-.lime-flat {
+.btn-flat--lime {
   color: #CDDC39; }
 
-.lightGreen-flat {
+.btn-flat--lightGreen {
   color: #8BC34A; }
 
-.green-flat {
+.btn-flat--green {
   color: #4CAF50; }
 
-.teal-flat {
+.btn-flat--teal {
   color: #009688; }
 
-.cyan-flat {
+.btn-flat--cyan {
   color: #00BCD4; }
 
-.lightBlue-flat {
+.btn-flat--lightBlue {
   color: #03A9F4; }
 
-.blue-flat {
+.btn-flat--blue {
   color: #2196F3; }
 
-.indigo-flat {
+.btn-flat--indigo {
   color: #3F51B5; }
 
-.deepPurple-flat {
+.btn-flat--deepPurple {
   color: #673AB7; }
 
-.purple-flat {
+.btn-flat--purple {
   color: #9C27B0; }
 
-.grey-flat {
+.btn-flat--grey {
   color: #424242; }
 
-.blueGrey-flat {
+.btn-flat--blueGrey {
   color: #607D8B; }
 
 /* --------------------------------
@@ -439,202 +413,202 @@ Flat Buttons
 FAB Buttons
 
 -------------------------------- */
-.pink-fab {
+.btn-fab--pink {
   background-color: #fff; }
-  .pink-fab:hover {
+  .btn-fab--pink:hover {
     background-color: #E91E63; }
-  .pink-fab:focus {
+  .btn-fab--pink:focus {
     background-color: #E91E63; }
-  .pink-fab:active {
+  .btn-fab--pink:active {
     background-color: #D81B60; }
-  .pink-fab i {
+  .btn-fab--pink i {
     color: #C2185B; }
 
-.red-fab {
+.btn-fab--red {
   background-color: #fff; }
-  .red-fab:hover {
+  .btn-fab--red:hover {
     background-color: #f44336; }
-  .red-fab:focus {
+  .btn-fab--red:focus {
     background-color: #f44336; }
-  .red-fab:active {
+  .btn-fab--red:active {
     background-color: #e53935; }
-  .red-fab i {
+  .btn-fab--red i {
     color: #d32f2f; }
 
-.deepOrange-fab {
+.btn-fab--deepOrange {
   background-color: #fff; }
-  .deepOrange-fab:hover {
+  .btn-fab--deepOrange:hover {
     background-color: #FF5722; }
-  .deepOrange-fab:focus {
+  .btn-fab--deepOrange:focus {
     background-color: #FF5722; }
-  .deepOrange-fab:active {
+  .btn-fab--deepOrange:active {
     background-color: #F4511E; }
-  .deepOrange-fab i {
+  .btn-fab--deepOrange i {
     color: #E64A19; }
 
-.orange-fab {
+.btn-fab--orange {
   background-color: #fff; }
-  .orange-fab:hover {
+  .btn-fab--orange:hover {
     background-color: #FFC107; }
-  .orange-fab:focus {
+  .btn-fab--orange:focus {
     background-color: #FFC107; }
-  .orange-fab:active {
+  .btn-fab--orange:active {
     background-color: #FFB300; }
-  .orange-fab i {
+  .btn-fab--orange i {
     color: #FFA000; }
 
-.amber-fab {
+.btn-fab--amber {
   background-color: #fff; }
-  .amber-fab:hover {
+  .btn-fab--amber:hover {
     background-color: #FFC107; }
-  .amber-fab:focus {
+  .btn-fab--amber:focus {
     background-color: #FFC107; }
-  .amber-fab:active {
+  .btn-fab--amber:active {
     background-color: #FFB300; }
-  .amber-fab i {
+  .btn-fab--amber i {
     color: #FFA000; }
 
-.yellow-fab {
+.btn-fab--yellow {
   background-color: #fff; }
-  .yellow-fab:hover {
+  .btn-fab--yellow:hover {
     background-color: #FFEB3B; }
-  .yellow-fab:focus {
+  .btn-fab--yellow:focus {
     background-color: #FFEB3B; }
-  .yellow-fab:active {
+  .btn-fab--yellow:active {
     background-color: #FDD835; }
-  .yellow-fab i {
+  .btn-fab--yellow i {
     color: #FBC02D; }
 
-.lime-fab {
+.btn-fab--lime {
   background-color: #fff; }
-  .lime-fab:hover {
+  .btn-fab--lime:hover {
     background-color: #CDDC39; }
-  .lime-fab:focus {
+  .btn-fab--lime:focus {
     background-color: #CDDC39; }
-  .lime-fab:active {
+  .btn-fab--lime:active {
     background-color: #C0CA33; }
-  .lime-fab i {
+  .btn-fab--lime i {
     color: #AFB42B; }
 
-.lightGreen-fab {
+.btn-fab--lightGreen {
   background-color: #fff; }
-  .lightGreen-fab:hover {
+  .btn-fab--lightGreen:hover {
     background-color: #8BC34A; }
-  .lightGreen-fab:focus {
+  .btn-fab--lightGreen:focus {
     background-color: #8BC34A; }
-  .lightGreen-fab:active {
+  .btn-fab--lightGreen:active {
     background-color: #7CB342; }
-  .lightGreen-fab i {
+  .btn-fab--lightGreen i {
     color: #689F38; }
 
-.green-fab {
+.btn-fab--green {
   background-color: #fff; }
-  .green-fab:hover {
+  .btn-fab--green:hover {
     background-color: #4CAF50; }
-  .green-fab:focus {
+  .btn-fab--green:focus {
     background-color: #4CAF50; }
-  .green-fab:active {
+  .btn-fab--green:active {
     background-color: #43A047; }
-  .green-fab i {
+  .btn-fab--green i {
     color: #388E3C; }
 
-.teal-fab {
+.btn-fab--teal {
   background-color: #fff; }
-  .teal-fab:hover {
+  .btn-fab--teal:hover {
     background-color: #009688; }
-  .teal-fab:focus {
+  .btn-fab--teal:focus {
     background-color: #009688; }
-  .teal-fab:active {
+  .btn-fab--teal:active {
     background-color: #00897B; }
-  .teal-fab i {
+  .btn-fab--teal i {
     color: #00796B; }
 
-.cyan-fab {
+.btn-fab--cyan {
   background-color: #fff; }
-  .cyan-fab:hover {
+  .btn-fab--cyan:hover {
     background-color: #00BCD4; }
-  .cyan-fab:focus {
+  .btn-fab--cyan:focus {
     background-color: #00BCD4; }
-  .cyan-fab:active {
+  .btn-fab--cyan:active {
     background-color: #00ACC1; }
-  .cyan-fab i {
+  .btn-fab--cyan i {
     color: #0097A7; }
 
-.lightBlue-fab {
+.btn-fab--lightBlue {
   background-color: #fff; }
-  .lightBlue-fab:hover {
+  .btn-fab--lightBlue:hover {
     background-color: #03A9F4; }
-  .lightBlue-fab:focus {
+  .btn-fab--lightBlue:focus {
     background-color: #03A9F4; }
-  .lightBlue-fab:active {
+  .btn-fab--lightBlue:active {
     background-color: #039BE5; }
-  .lightBlue-fab i {
+  .btn-fab--lightBlue i {
     color: #0097A7; }
 
-.blue-fab {
+.btn-fab--blue {
   background-color: #fff; }
-  .blue-fab:hover {
+  .btn-fab--blue:hover {
     background-color: #2196F3; }
-  .blue-fab:focus {
+  .btn-fab--blue:focus {
     background-color: #2196F3; }
-  .blue-fab:active {
+  .btn-fab--blue:active {
     background-color: #1E88E5; }
-  .blue-fab i {
+  .btn-fab--blue i {
     color: #1976D2; }
 
-.indigo-fab {
+.btn-fab--indigo {
   background-color: #fff; }
-  .indigo-fab:hover {
+  .btn-fab--indigo:hover {
     background-color: #3F51B5; }
-  .indigo-fab:focus {
+  .btn-fab--indigo:focus {
     background-color: #3F51B5; }
-  .indigo-fab:active {
+  .btn-fab--indigo:active {
     background-color: #3949AB; }
-  .indigo-fab i {
+  .btn-fab--indigo i {
     color: #303F9F; }
 
-.deepPurple-fab {
+.btn-fab--deepPurple {
   background-color: #fff; }
-  .deepPurple-fab:hover {
+  .btn-fab--deepPurple:hover {
     background-color: #673AB7; }
-  .deepPurple-fab:focus {
+  .btn-fab--deepPurple:focus {
     background-color: #673AB7; }
-  .deepPurple-fab:active {
+  .btn-fab--deepPurple:active {
     background-color: #5E35B1; }
-  .deepPurple-fab i {
+  .btn-fab--deepPurple i {
     color: #512DA8; }
 
-.purple-fab {
+.btn-fab--purple {
   background-color: #fff; }
-  .purple-fab:hover {
+  .btn-fab--purple:hover {
     background-color: #9C27B0; }
-  .purple-fab:focus {
+  .btn-fab--purple:focus {
     background-color: #9C27B0; }
-  .purple-fab:active {
+  .btn-fab--purple:active {
     background-color: #5E35B1; }
-  .purple-fab i {
+  .btn-fab--purple i {
     color: #512DA8; }
 
-.grey-fab {
+.btn-fab--grey {
   background-color: #fff; }
-  .grey-fab:hover {
+  .btn-fab--grey:hover {
     background-color: #424242; }
-  .grey-fab:focus {
+  .btn-fab--grey:focus {
     background-color: #424242; }
-  .grey-fab:active {
+  .btn-fab--grey:active {
     background-color: #212121; }
-  .grey-fab i {
+  .btn-fab--grey i {
     color: #212121; }
 
-.blueGrey-fab {
+.btn-fab--blueGrey {
   background-color: #fff; }
-  .blueGrey-fab:hover {
+  .btn-fab--blueGrey:hover {
     background-color: #607D8B; }
-  .blueGrey-fab:focus {
+  .btn-fab--blueGrey:focus {
     background-color: #607D8B; }
-  .blueGrey-fab:active {
+  .btn-fab--blueGrey:active {
     background-color: #546E7A; }
-  .blueGrey-fab i {
+  .btn-fab--blueGrey i {
     color: #455A64; }
 
 /* --------------------------------
@@ -642,213 +616,213 @@ FAB Buttons
 mini FAB Buttons
 
 -------------------------------- */
-.lite-miniFab {
+.btn-miniFab--lite {
   background-color: #fff; }
-  .lite-miniFab:hover {
+  .btn-miniFab--lite:hover {
     background-color: #F5F5F5; }
-  .lite-miniFab:focus {
+  .btn-miniFab--lite:focus {
     background-color: #F5F5F5; }
-  .lite-miniFab:active {
+  .btn-miniFab--lite:active {
     background-color: #EEEEEE; }
-  .lite-miniFab i {
+  .btn-miniFab--lite i {
     color: #757575; }
 
-.pink-miniFab {
+.btn-miniFab--pink {
   background-color: #fff; }
-  .pink-miniFab:hover {
+  .btn-miniFab--pink:hover {
     background-color: #E91E63; }
-  .pink-miniFab:focus {
+  .btn-miniFab--pink:focus {
     background-color: #E91E63; }
-  .pink-miniFab:active {
+  .btn-miniFab--pink:active {
     background-color: #D81B60; }
-  .pink-miniFab i {
+  .btn-miniFab--pink i {
     color: #C2185B; }
 
-.red-miniFab {
+.btn-miniFab--red {
   background-color: #fff; }
-  .red-miniFab:hover {
+  .btn-miniFab--red:hover {
     background-color: #f44336; }
-  .red-miniFab:focus {
+  .btn-miniFab--red:focus {
     background-color: #f44336; }
-  .red-miniFab:active {
+  .btn-miniFab--red:active {
     background-color: #e53935; }
-  .red-miniFab i {
+  .btn-miniFab--red i {
     color: #d32f2f; }
 
-.deepOrange-miniFab {
+.btn-miniFab--deepOrange {
   background-color: #fff; }
-  .deepOrange-miniFab:hover {
+  .btn-miniFab--deepOrange:hover {
     background-color: #FF5722; }
-  .deepOrange-miniFab:focus {
+  .btn-miniFab--deepOrange:focus {
     background-color: #FF5722; }
-  .deepOrange-miniFab:active {
+  .btn-miniFab--deepOrange:active {
     background-color: #F4511E; }
-  .deepOrange-miniFab i {
+  .btn-miniFab--deepOrange i {
     color: #E64A19; }
 
-.orange-miniFab {
+.btn-miniFab--orange {
   background-color: #fff; }
-  .orange-miniFab:hover {
+  .btn-miniFab--orange:hover {
     background-color: #FFC107; }
-  .orange-miniFab:focus {
+  .btn-miniFab--orange:focus {
     background-color: #FFC107; }
-  .orange-miniFab:active {
+  .btn-miniFab--orange:active {
     background-color: #FFB300; }
-  .orange-miniFab i {
+  .btn-miniFab--orange i {
     color: #FFA000; }
 
-.amber-miniFab {
+.btn-miniFab--amber {
   background-color: #fff; }
-  .amber-miniFab:hover {
+  .btn-miniFab--amber:hover {
     background-color: #FFC107; }
-  .amber-miniFab:focus {
+  .btn-miniFab--amber:focus {
     background-color: #FFC107; }
-  .amber-miniFab:active {
+  .btn-miniFab--amber:active {
     background-color: #FFB300; }
-  .amber-miniFab i {
+  .btn-miniFab--amber i {
     color: #FFA000; }
 
-.yellow-miniFab {
+.btn-miniFab--yellow {
   background-color: #fff; }
-  .yellow-miniFab:hover {
+  .btn-miniFab--yellow:hover {
     background-color: #FFEB3B; }
-  .yellow-miniFab:focus {
+  .btn-miniFab--yellow:focus {
     background-color: #FFEB3B; }
-  .yellow-miniFab:active {
+  .btn-miniFab--yellow:active {
     background-color: #FDD835; }
-  .yellow-miniFab i {
+  .btn-miniFab--yellow i {
     color: #FBC02D; }
 
-.lime-miniFab {
+.btn-miniFab--lime {
   background-color: #fff; }
-  .lime-miniFab:hover {
+  .btn-miniFab--lime:hover {
     background-color: #CDDC39; }
-  .lime-miniFab:focus {
+  .btn-miniFab--lime:focus {
     background-color: #CDDC39; }
-  .lime-miniFab:active {
+  .btn-miniFab--lime:active {
     background-color: #C0CA33; }
-  .lime-miniFab i {
+  .btn-miniFab--lime i {
     color: #AFB42B; }
 
-.lightGreen-miniFab {
+.btn-miniFab--lightGreen {
   background-color: #fff; }
-  .lightGreen-miniFab:hover {
+  .btn-miniFab--lightGreen:hover {
     background-color: #8BC34A; }
-  .lightGreen-miniFab:focus {
+  .btn-miniFab--lightGreen:focus {
     background-color: #8BC34A; }
-  .lightGreen-miniFab:active {
+  .btn-miniFab--lightGreen:active {
     background-color: #7CB342; }
-  .lightGreen-miniFab i {
+  .btn-miniFab--lightGreen i {
     color: #689F38; }
 
-.green-miniFab {
+.btn-miniFab--green {
   background-color: #fff; }
-  .green-miniFab:hover {
+  .btn-miniFab--green:hover {
     background-color: #4CAF50; }
-  .green-miniFab:focus {
+  .btn-miniFab--green:focus {
     background-color: #4CAF50; }
-  .green-miniFab:active {
+  .btn-miniFab--green:active {
     background-color: #43A047; }
-  .green-miniFab i {
+  .btn-miniFab--green i {
     color: #388E3C; }
 
-.teal-miniFab {
+.btn-miniFab--teal {
   background-color: #fff; }
-  .teal-miniFab:hover {
+  .btn-miniFab--teal:hover {
     background-color: #009688; }
-  .teal-miniFab:focus {
+  .btn-miniFab--teal:focus {
     background-color: #009688; }
-  .teal-miniFab:active {
+  .btn-miniFab--teal:active {
     background-color: #00897B; }
-  .teal-miniFab i {
+  .btn-miniFab--teal i {
     color: #00796B; }
 
-.cyan-miniFab {
+.btn-miniFab--cyan {
   background-color: #fff; }
-  .cyan-miniFab:hover {
+  .btn-miniFab--cyan:hover {
     background-color: #00BCD4; }
-  .cyan-miniFab:focus {
+  .btn-miniFab--cyan:focus {
     background-color: #00BCD4; }
-  .cyan-miniFab:active {
+  .btn-miniFab--cyan:active {
     background-color: #00ACC1; }
-  .cyan-miniFab i {
+  .btn-miniFab--cyan i {
     color: #0097A7; }
 
-.lightBlue-miniFab {
+.btn-miniFab--lightBlue {
   background-color: #fff; }
-  .lightBlue-miniFab:hover {
+  .btn-miniFab--lightBlue:hover {
     background-color: #03A9F4; }
-  .lightBlue-miniFab:focus {
+  .btn-miniFab--lightBlue:focus {
     background-color: #03A9F4; }
-  .lightBlue-miniFab:active {
+  .btn-miniFab--lightBlue:active {
     background-color: #039BE5; }
-  .lightBlue-miniFab i {
+  .btn-miniFab--lightBlue i {
     color: #0097A7; }
 
-.blue-miniFab {
+.btn-miniFab--blue {
   background-color: #fff; }
-  .blue-miniFab:hover {
+  .btn-miniFab--blue:hover {
     background-color: #2196F3; }
-  .blue-miniFab:focus {
+  .btn-miniFab--blue:focus {
     background-color: #2196F3; }
-  .blue-miniFab:active {
+  .btn-miniFab--blue:active {
     background-color: #1E88E5; }
-  .blue-miniFab i {
+  .btn-miniFab--blue i {
     color: #1976D2; }
 
-.indigo-miniFab {
+.btn-miniFab--indigo {
   background-color: #fff; }
-  .indigo-miniFab:hover {
+  .btn-miniFab--indigo:hover {
     background-color: #3F51B5; }
-  .indigo-miniFab:focus {
+  .btn-miniFab--indigo:focus {
     background-color: #3F51B5; }
-  .indigo-miniFab:active {
+  .btn-miniFab--indigo:active {
     background-color: #3949AB; }
-  .indigo-miniFab i {
+  .btn-miniFab--indigo i {
     color: #303F9F; }
 
-.deepPurple-miniFab {
+.btn-miniFab--deepPurple {
   background-color: #fff; }
-  .deepPurple-miniFab:hover {
+  .btn-miniFab--deepPurple:hover {
     background-color: #673AB7; }
-  .deepPurple-miniFab:focus {
+  .btn-miniFab--deepPurple:focus {
     background-color: #673AB7; }
-  .deepPurple-miniFab:active {
+  .btn-miniFab--deepPurple:active {
     background-color: #5E35B1; }
-  .deepPurple-miniFab i {
+  .btn-miniFab--deepPurple i {
     color: #512DA8; }
 
-.purple-miniFab {
+.btn-miniFab--purple {
   background-color: #fff; }
-  .purple-miniFab:hover {
+  .btn-miniFab--purple:hover {
     background-color: #9C27B0; }
-  .purple-miniFab:focus {
+  .btn-miniFab--purple:focus {
     background-color: #9C27B0; }
-  .purple-miniFab:active {
+  .btn-miniFab--purple:active {
     background-color: #5E35B1; }
-  .purple-miniFab i {
+  .btn-miniFab--purple i {
     color: #512DA8; }
 
-.grey-miniFab {
+.btn-miniFab--grey {
   background-color: #fff; }
-  .grey-miniFab:hover {
+  .btn-miniFab--grey:hover {
     background-color: #424242; }
-  .grey-miniFab:focus {
+  .btn-miniFab--grey:focus {
     background-color: #424242; }
-  .grey-miniFab:active {
+  .btn-miniFab--grey:active {
     background-color: #212121; }
-  .grey-miniFab i {
+  .btn-miniFab--grey i {
     color: #212121; }
 
-.blueGrey-miniFab {
+.btn-miniFab--blueGrey {
   background-color: #fff; }
-  .blueGrey-miniFab:hover {
+  .btn-miniFab--blueGrey:hover {
     background-color: #607D8B; }
-  .blueGrey-miniFab:focus {
+  .btn-miniFab--blueGrey:focus {
     background-color: #607D8B; }
-  .blueGrey-miniFab:active {
+  .btn-miniFab--blueGrey:active {
     background-color: #546E7A; }
-  .blueGrey-miniFab i {
+  .btn-miniFab--blueGrey i {
     color: #455A64; }
 
 /* --------------------------------
