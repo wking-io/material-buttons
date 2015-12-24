@@ -1,5 +1,6 @@
 node_modules
 .*
+*.sketch
 
 ### OSX ###
 .DS_Store

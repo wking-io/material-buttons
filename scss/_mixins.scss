@@ -15,9 +15,9 @@
 }
 
 // primary button mixin
-@mixin primary-btn($text, $color, $hover, $pressed) {
-  @extend %button-base;
-  @extend %button-shadow;
+@mixin btn-primary($text, $color, $hover, $pressed) {
+  @extend %btn;
+  @extend %btn-shadow;
   color: $text;
   background-color: $color;
   &:hover {
@@ -32,21 +32,23 @@
 }
 
 // lite button mixin
-@mixin lite-btn($text) {
-  @extend %lite-base;
-  @extend %button-shadow;
+@mixin btn-lite($text) {
+  @extend %btn;
+  @extend %lite;
+  @extend %btn-shadow;
   color: $text;
 }
 
 // flat button mixin
-@mixin flat-btn($text) {
-  @extend %flat-base;
+@mixin btn-flat($text) {
+  @extend %btn;
+  @extend %flat ;
   color: $text;
 }
 
 // fab button mixin
-@mixin fab-btn( $color, $hover, $pressed, $text) {
-  @extend %fab-base;
+@mixin btn-fab( $color, $hover, $pressed, $text) {
+  @extend %fab;
   @extend %fab-shadow;
   background-color: $color;
   &:hover {
@@ -64,8 +66,8 @@
 }
 
 // mini-fab button mixin
-@mixin miniFab-btn($color, $hover, $pressed, $text) {
-  @extend %miniFab-base;
+@mixin btn-miniFab($color, $hover, $pressed, $text) {
+  @extend %miniFab;
   @extend %fab-shadow;
   background-color: $color;
   &:hover {
@@ -89,12 +91,11 @@
 Button Defaults
 
 -------------------------------- */
-
-// primary button placeholder
-%button-base {
+// button base placeholder
+%btn {
   border: none;
-  border-radius: 2px;
   outline: none;
+  border-radius: 2px;
   padding: 0 16px;
   min-width: 88px;
   height: 36px;
@@ -103,24 +104,13 @@ Button Defaults
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
+  letter-spacing: 0.01em;
   transition: all .5s ease-out;
 }
 
 // lite button placeholder
-%lite-base {
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  padding: 0 16px;
-  min-width: 88px;
-  height: 36px;
-  @include font-smoothing;
-  font-family: Roboto, Noto, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
+%lite  {
   background-color: #fff;
-  transition: all .5s ease-out;
   &:hover {
     background-color: #F5F5F5;
   }
@@ -133,21 +123,8 @@ Button Defaults
 }
 
 // flat button placeholder
-%flat-base {
+%flat  {
   background-color: transparent;
-  letter-spacing: 0.01em;
-  border: none;
-  border-radius: 2px;
-  outline: none;
-  padding: 0 16px;
-  min-width: 88px;
-  height: 36px;
-  @include font-smoothing;
-  font-family: Roboto, Noto, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  transition: all .5s ease-out;
   &:hover {
     background-color: rgba(153, 153, 153, 0.20);
   }
@@ -160,7 +137,7 @@ Button Defaults
 }
 
 // fab button placeholder
-%fab-base {
+%fab  {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -180,7 +157,7 @@ Button Defaults
 }
 
 // mini-fab button placeholder
-%miniFab-base {
+%miniFab  {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -200,7 +177,7 @@ Button Defaults
 }
 
 // button shadow placeholder
-%button-shadow {
+%btn-shadow {
   @include shadow(1);
   &:hover {
     @include shadow(2);
